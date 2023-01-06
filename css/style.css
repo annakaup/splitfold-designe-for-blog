@@ -1,0 +1,18 @@
+.hero {
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+
+.col-1 {
+    background-color: brown;
+}
+.col-1 {
+    background-color: rgb(47, 44, 216);
+}
+.hero > div {
+    max-height: 90vh;
+}
