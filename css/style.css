@@ -104,6 +104,9 @@ h1 {
 }
 
 h2 {font-size: 5.063rem;}
+.smaller {
+    font-size: 4rem;
+}
 
 h3 {font-size: 3.375rem;}
 
@@ -127,7 +130,7 @@ small, .text_small {font-size: 0.667rem;}
 
 }
 
-.space-bertween {
+.space-between {
     justify-content: space-between;
 }
 .h-center {
@@ -149,6 +152,27 @@ grid-row-gap: 0px;
 .m-o {
     margin: 0;
 }
+.btn {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+.btn-secondary {
+    border: 1px solid;
+    border-radius: 30px;
+    color: rgb(64, 67, 70);
+
+}
+.btn-secondary:hover {
+    
+    border-radius: 30px;
+    background-color:rgb(36, 36, 138);
+    color: aliceblue;
+   
+
+}
+
 
 
 /*END global styles*/
@@ -174,6 +198,19 @@ grid-row-gap: 0px;
     width: 4em;
 }
 
+.hero-copy{
+    position: relative;
+}
+.placeholder {
+    color: aliceblue;
+    font-weight: 700;
+    position: absolute;
+    left: -60px;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+}
+
 .social-sidebar img {
     width: 1.3em;
     margin: 0.5em;
@@ -182,7 +219,14 @@ grid-row-gap: 0px;
 .social-sidebar {
     margin: 0 1em;
 }
+.hero-copy >h2 >span {
+    color: rgb(36, 36, 138);
+}
 .social-footer {
     flex-direction: row;
+}
+
+.hero-copy span {
+    text-transform: capitalize;
 }
 /*END main styles*/
